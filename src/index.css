@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+@theme{
+    --font-dm:"DM Sans", sans-serif;
+    --color-headerColor: #767676;
+    --color-headerHover: #000000;
+    --color-navColor: #767676;
+} 
+.slick-dots .slick-active div{
+    border-right: 2px solid #262626 !important;
+    color:#262626 !important;
+}
