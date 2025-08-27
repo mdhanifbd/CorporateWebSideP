@@ -101,18 +101,18 @@ const ProductDetails = () => {
                     ${singleProduct.stock}
                   </span>
                 </p>
-                <p className="font-dmtext-[#262626] font-bold pb-4">
+                <p className="font-dm text-[#262626] font-bold pb-4">
                   Brand:{" "}
                   <span className="text-[#767676] pl-6">
                     {singleProduct.brand}
                   </span>
                 </p>
-                <p className="font-dm text-[#262626] font-bold pb-4">
+                {/* <p className="font-dm text-[#262626] font-bold pb-4">
                   Status:{" "}
                   <span className="text-[#767676] pl-6">
                     ${singleProduct.availabilityStatus}
                   </span>
-                </p>
+                </p> */}
               </div>
             </div>
             <div className=" border-1 border-[rgb(240,237,237)]">
@@ -194,7 +194,7 @@ const ProductDetails = () => {
                   <h5 className=" font-dm text-[#262626] font-bold">STATUS:</h5>
                 </div>
                 <div className="">
-                  <h5 className="text-[#bdb9b9]">In stock</h5>
+                  <h5 className="text-[#767676] font-dm font-bold">{singleProduct.category}</h5>
                 </div>
               </div>
             </div>
