@@ -5,10 +5,11 @@ import Container from "../components/Container";
 import { FaMinus, FaPlus, FaStar } from "react-icons/fa6";
 import { FaStarHalfAlt } from "react-icons/fa";
 import { FaRegStar } from "react-icons/fa6";
-import Oval2 from "../assets/oval2.png";
-import Oval3 from "../assets/oval3.png";
-import Oval4 from "../assets/oval4.png";
-import Oval5 from "../assets/oval5.png";
+import Oval1 from "../assets/Oval1.png";
+import Oval2 from "../assets/Oval2.png";
+import Oval3 from "../assets/Oval3.png";
+import Oval4 from "../assets/Oval4.png";
+import Oval5 from "../assets/Oval5.png";
 
 const ProductDetails = () => {
   let {id} = useParams();
@@ -122,7 +123,7 @@ const ProductDetails = () => {
                 <div className="flex ">
                   <img
                     className="p-2 transition-transform duration-100 hover:scale-225"
-                    src={Oval2}
+                    src={Oval1}
                     alt=""
                   />
                   <img
